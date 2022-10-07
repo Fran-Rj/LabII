@@ -63,9 +63,9 @@ namespace TiendaBigFeet
         // FILTROS
         public void Filtros()
         {
-            if (cbFiltro.Text == "" || txtFiltro.Text == "")
+            if (txtFiltro.Text == "")
             {
-                MessageBox.Show("Selecciona un campo e ingresa un valor!");
+                MessageBox.Show("Ingresa un valor!");
             }
             else if (cbFiltro.SelectedItem.Equals("Categoria"))
             {
@@ -392,6 +392,11 @@ namespace TiendaBigFeet
             {
                 e.Handled = false;
             }
+        }
+
+        private void cbFiltro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtFiltro.Enabled = true;
         }
     }
 }

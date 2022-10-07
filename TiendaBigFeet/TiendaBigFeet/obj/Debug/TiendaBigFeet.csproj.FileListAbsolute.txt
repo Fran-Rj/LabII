@@ -22,3 +22,17 @@ E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.pdb
 E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.dll
 E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.xml
 E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CopyComplete
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe.config
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.pdb
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.dll
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.xml
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.AssemblyReference.cache
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.SuggestedBindingRedirects.cache
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Form1.resources
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Properties.Resources.resources
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.GenerateResource.cache
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CoreCompileInputs.cache
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CopyComplete
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.exe
+C:\Users\frank\OneDrive\Documentos\GitHub\LabII\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.pdb

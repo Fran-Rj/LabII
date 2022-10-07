@@ -290,6 +290,7 @@ namespace TiendaBigFeet
             this.cbFiltro.Name = "cbFiltro";
             this.cbFiltro.Size = new System.Drawing.Size(219, 27);
             this.cbFiltro.TabIndex = 48;
+            this.cbFiltro.SelectedIndexChanged += new System.EventHandler(this.cbFiltro_SelectedIndexChanged);
             // 
             // lvInventario
             // 
@@ -427,6 +428,7 @@ namespace TiendaBigFeet
             // 
             // txtFiltro
             // 
+            this.txtFiltro.Enabled = false;
             this.txtFiltro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFiltro.Location = new System.Drawing.Point(684, 213);
             this.txtFiltro.Multiline = true;
