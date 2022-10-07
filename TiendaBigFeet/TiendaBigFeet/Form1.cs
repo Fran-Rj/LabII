@@ -55,8 +55,8 @@ namespace TiendaBigFeet
                 item.SubItems.Add(producto.categoria);
                 item.SubItems.Add(producto.talla.ToString());
                 item.SubItems.Add(producto.cantidad.ToString());
-                item.SubItems.Add(producto.pCompra.ToString());
-                item.SubItems.Add(producto.pVenta.ToString());
+                item.SubItems.Add(producto.pCompra.ToString("0.00"));
+                item.SubItems.Add(producto.pVenta.ToString("0.00"));
             }
         }
 
@@ -87,8 +87,8 @@ namespace TiendaBigFeet
                         item.SubItems.Add(producto.categoria);
                         item.SubItems.Add(producto.talla.ToString());
                         item.SubItems.Add(producto.cantidad.ToString());
-                        item.SubItems.Add(producto.pCompra.ToString());
-                        item.SubItems.Add(producto.pVenta.ToString());
+                        item.SubItems.Add(producto.pCompra.ToString("0.00"));
+                        item.SubItems.Add(producto.pVenta.ToString("0.00"));
                     };
                 }
                 else
@@ -129,8 +129,8 @@ namespace TiendaBigFeet
                         item.SubItems.Add(producto.categoria);
                         item.SubItems.Add(producto.talla.ToString());
                         item.SubItems.Add(producto.cantidad.ToString());
-                        item.SubItems.Add(producto.pCompra.ToString());
-                        item.SubItems.Add(producto.pVenta.ToString());
+                        item.SubItems.Add(producto.pCompra.ToString("0.00"));
+                        item.SubItems.Add(producto.pVenta.ToString("0.00"));
                     }
                 }
             }
@@ -152,7 +152,7 @@ namespace TiendaBigFeet
                         cbCateg.Text = p.categoria;
                         txtTalla.Text = p.talla.ToString();
                         txtCant.Text = p.cantidad.ToString();
-                        txtPrice.Text = p.pCompra.ToString();
+                        txtPrice.Text = p.pCompra.ToString("0.00");
 
                         idProd = p.id;
                         break;
@@ -215,31 +215,38 @@ namespace TiendaBigFeet
             {
                 double pVenta = 0;
 
-                foreach (ClsProducto p in listInventario)
+                if (txtIdP.Text != "")
                 {
-                    if (p.id == idProd)
+                    foreach (ClsProducto p in listInventario)
                     {
-                        DialogResult request = MessageBox.Show("Quieres actualizar los datos?", "Editar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                        if (request == DialogResult.Yes)
+                        if (p.id == idProd)
                         {
-                            p.marca = txtMarca.Text;
-                            p.descripcion = txtDesrip.Text;
-                            p.categoria = cbCateg.Text;
-                            p.talla = double.Parse(txtTalla.Text);
-                            p.cantidad = int.Parse(txtCant.Text);
-                            p.pCompra = double.Parse(txtPrice.Text);
+                            DialogResult request = MessageBox.Show("Quieres actualizar los datos?", "Editar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                            double total = double.Parse(txtPrice.Text) * 0.13;
-                            pVenta = (p.pCompra + total);
-                            p.pVenta = pVenta;
+                            if (request == DialogResult.Yes)
+                            {
+                                p.marca = txtMarca.Text;
+                                p.descripcion = txtDesrip.Text;
+                                p.categoria = cbCateg.Text;
+                                p.talla = double.Parse(txtTalla.Text);
+                                p.cantidad = int.Parse(txtCant.Text);
+                                p.pCompra = double.Parse(txtPrice.Text);
 
-                            MostrarInvetario();
-                            Limpiar();
+                                double total = double.Parse(txtPrice.Text) * 0.13;
+                                pVenta = (p.pCompra + total);
+                                p.pVenta = pVenta;
+
+                                MostrarInvetario();
+                                Limpiar();
+                            }
+
+                            break;
                         }
-
-                        break;
                     }
+                }
+                else
+                {
+                    MessageBox.Show("Busca un registro!");
                 }
             }
             catch (Exception ex)
@@ -274,7 +281,7 @@ namespace TiendaBigFeet
                 }
                 else
                 {
-                    MessageBox.Show("Ingresa un Id!");
+                    MessageBox.Show("Busca un registro!");
                 }
             }
             catch (Exception)
@@ -296,37 +303,40 @@ namespace TiendaBigFeet
 
         private void txtMarca_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar >= 32 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 ||
-                e.KeyChar >= 123 && e.KeyChar <= 255
-                )
+            if (char.IsNumber(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsSymbol(e.KeyChar))
             {
-                MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 e.Handled = true;
-                return;
+                MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                e.Handled = false;
             }
         }
 
         private void txtDesrip_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar >= 32 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 ||
-                e.KeyChar >= 123 && e.KeyChar <= 255
-                )
+            if (char.IsNumber(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsSymbol(e.KeyChar))
             {
-                MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 e.Handled = true;
-                return;
+                MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                e.Handled = false;
             }
         }
 
         private void cbCateg_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar >= 32 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 ||
-                e.KeyChar >= 123 && e.KeyChar <= 255
-                )
+            if (char.IsNumber(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsSymbol(e.KeyChar))
             {
-                MessageBox.Show("Solo letras", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 e.Handled = true;
-                return;
+                MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                e.Handled = false;
             }
         }
 
@@ -373,14 +383,14 @@ namespace TiendaBigFeet
 
         private void txtFiltro_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && !char.IsPunctuation(e.KeyChar))
-            {
-                e.Handled = false;            
-            }  
-            else
+            if (char.IsNumber(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsSymbol(e.KeyChar))
             {
                 e.Handled = true;
                 MessageBox.Show("Solo letras!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                e.Handled = false;
             }
         }
     }
