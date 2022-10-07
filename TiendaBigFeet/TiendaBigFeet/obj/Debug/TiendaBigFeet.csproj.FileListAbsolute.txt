@@ -1,0 +1,24 @@
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe.config
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.pdb
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Form1.resources
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Properties.Resources.resources
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.GenerateResource.cache
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.exe
+C:\Users\ALUMNO\Downloads\Program II\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.pdb
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.AssemblyReference.cache
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.SuggestedBindingRedirects.cache
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Form1.resources
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.Properties.Resources.resources
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.GenerateResource.cache
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CoreCompileInputs.cache
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.exe
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.pdb
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe.config
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.exe
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\TiendaBigFeet.pdb
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.dll
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\bin\Debug\FontAwesome.WPF.xml
+E:\JFLR\+UNAB+\TiendaBigFeet\TiendaBigFeet\obj\Debug\TiendaBigFeet.csproj.CopyComplete
